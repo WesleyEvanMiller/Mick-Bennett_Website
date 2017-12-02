@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+#divWrapper{
+	margin:0px;
+	height:100%;
+	width:100%;
+	}
+
+#divHeader{                     /*Header Block Start*/
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	height:100px;
+	width:90%
+	}
+
+		h1{		                /* Universal headder title styling */
+			color:#181717;
+			font-family:felix titling, sans-serif;
+			font-size:55px;
+			text-decoration:none;
+			}
+		h1 a{		                /* Universal headder title styling */
+			color:#181717;
+			text-decoration:none;
+			}
+		
+		#menuList{              /* Universal headder menu styling */
+			font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+			font-size:18px;
+			font-weight:400;
+			margin-top:-25px;
+			}
+		
+			#menuList li{			/*Inline display and spacing of menuList elements*/
+				display:inline;
+				margin-right:50px;
+				color:#383838;
+				}
+				
+			#menuList li a{			/*Link Styling*/
+				color:#383838;
+				text-decoration:none;
+				}
+			#menuList li a:hover{			/*Link Styling*/
+				color:#383838;
+				text-decoration:underline;
+				}
+			                     			/*Header Block End*/
+#divCenter{									/*Center Block Start*/
+	margin-top:15px;
+	margin-bottom:-16px;
+	margin-left:-10px;
+	margin-right:-10px;
+	min-height:600px;
+	width:102%;
+	}
+											/*Center Block End*/
+#divFooter{									/*Footer Block Start*/
+	position:relative;
+	margin-bottom:-15px;
+        margin-left:-15px;
+	height:200px;
+	width:102%;
+	background-color:#1E1E1E;
+	color:white;
+	font-family:Century Gothic,CenturyGothic,AppleGothic, sans-serif;
+	font-weight:200;
+	}
+		#iconsList {   						/*Icon List Style*/
+			padding-top:53px;
+			list-style-type:none;
+			position:relative;
+			float:left;
+			}
+			
+			#iconsList li{					/*Individual Styles*/
+					display:inline;
+					margin-right:20px;
+					}
+			
+			.fTIcons{						/*Icon Size*/
+				width:35px;
+				height:35px;
+				}
+				
+		.fLinkTitle{						/*Footer Link Titles*/
+			font-size:21px;
+			}
+				
+		#siteMapList{						/*Site Map Link Styles*/
+			padding-top:20px;
+			list-style-type:none;
+			position:relative;
+			float:left;
+			}
+				
+		#publisherList{						/*Publisher Link Styles*/
+			padding-top:20px;
+			list-style-type:none;
+			position:relative;
+			float:left;
+			}
+		#divFooter ul li a{					/*Link Unused Styles*/
+			color:white;
+			text-decoration:none;
+			}
+			
+		#divFooter ul li a:hover{			/*Link Mouse Over Styles*/
+			color:white;
+			text-decoration:underline;
+			}
+		#poweredByWes{						/*Creater Signature*/
+			position:relative;
+			float:right;
+			font-size:12px;
+			font-weight:300;
+			padding-top:160px;
+			padding-right:30px;
+			}
+										/*Footer Block End*/
+			
+			
+			
+			

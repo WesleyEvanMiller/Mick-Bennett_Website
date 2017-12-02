@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bookDisplay{
+	margin-top:75px;
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+	width:1120px;
+	}
+	
+.pBook{
+	margin-top:100px;
+	margin-right:50px;
+	height:200px;
+	width:285px;
+	background-image:url(../Resources/Book4Thumbnail.png);
+	background-size:285px 200px;
+	position:relative;
+	float:left;
+	}
+	
+.nBook{
+	margin-top:100px;
+	margin-left:50px;
+	height:200px;
+	width:285px;	
+	background-image:url(../Resources/Book2Thumbnail.png);
+	background-size:285px 200px;
+	position:relative;
+	float:left;
+	}
+	
+.pBookOverlay{
+	width:100%;
+	Height:100%;
+	background-image:url(../Resources/Test.png);
+}
+.pBookOverlay:hover{
+	box-shadow:0 0 15px #4A96FD;
+}
+
+.nBookOverlay{
+	width:100%;
+	Height:100%;
+	background-image:url(../Resources/nArrow.png);
+}
+
+.nBookOverlay:hover{
+	box-shadow:0 0 15px #4A96FD;
+}
+	
+#featuredBook{
+	height:300px;
+	width:450px;
+	background-image:url(../Resources/Book1Thumbnail.png);
+	position:relative;
+	float:left;
+	}
+
+#featuredBookTitle{
+	font-family:felix titling,sarif;
+	font-size:28px;
+	font-weight:600;
+	color:black;
+	text-align:center;
+	margin-top:12px;
+	width:100%;
+	Height:100px;
+}
+
+#currentBookText{
+	font-family:Century Gothic,CenturyGothic,AppleGothic, sans-serif;
+	font-size:20px;
+	font-weight:400;
+	margin-top:60px;
+	margin-left:auto;
+	margin-right:auto;
+	width:65%;
+	min-height:300px;
+	}
+#dropCap{
+	font-family:felix titling,serif;
+	margin-top:-8px;
+	height:48px;
+	margin-right:4px;
+	float:left;
+	font-size:58px;
+	}

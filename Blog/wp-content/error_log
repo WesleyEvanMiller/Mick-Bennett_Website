@@ -1,0 +1,3 @@
+[30-Jun-2017 13:04:35 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 130968 bytes) in /home/michaelbennett9/public_html/Blog/wp-includes/plugin.php on line 606
+[30-Jun-2017 13:05:19 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 130968 bytes) in /home/michaelbennett9/public_html/Blog/wp-includes/pluggable.php on line 339
+[30-Jun-2017 13:08:29 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 130968 bytes) in /home/michaelbennett9/public_html/Blog/wp-includes/pluggable.php on line 339
